@@ -1,6 +1,6 @@
 // ── 图标 & 背景 配置 ────────────────────────────────────────
 const FAVICON_PROVIDER = 'google';
-const PROXY = 'https://map.darkduck.com';
+const PROXY = 'https://nav.darkduck.com';
 
 function withProxy(originUrl) {
   if (!PROXY) return originUrl;
